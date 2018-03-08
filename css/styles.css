@@ -1,4 +1,17 @@
+.top_part{
+    position:relative;
+}
+
 .top_part img{
 
     width: 100%;
+}
+
+.bank_button{
+    position: absolute;
+    background-color: black;
+    width: 160px;
+    height: 60px;
+    bottom:210px;
+    left:25px;
 }
