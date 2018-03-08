@@ -7,11 +7,40 @@
     width: 100%;
 }
 
+.iban{
+    position: absolute;
+    width: 230px;
+    height: 30px;
+    bottom: 375px;
+    left:30px;
+    border:0px;
+    visibility: hidden;
+}
+
+.swift{
+    position: absolute;
+    width: 160px;
+    height: 30px;
+    bottom:305px;
+    left:30px;
+    border:0px;
+    visibility: hidden;
+}
+
 .bank_button{
     position: absolute;
-    background-color: black;
     width: 160px;
     height: 60px;
     bottom:210px;
     left:25px;
+    border:0px;
+}
+
+.finish_button{
+    position: absolute;
+    width: 350px;
+    height: 60px;
+    bottom:140px;
+    left:25px;
+    border:0px;
 }

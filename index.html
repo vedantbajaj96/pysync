@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+  
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Your page title here :)</title>
+  <title>Welcome to Paysync</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -26,13 +26,38 @@
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
+  <script>
+    function changeImage(imgName)
+    {
+      var image = document.getElementById('imgDisp');
+      image.src = imgName;
+      showBank();
+    }
 
+    function showBank(){
+      var iban = document.getElementById("iban_field")
+      var swift = document.getElementById("swift_field")
+      iban.style.visibility = 'visible'
+      swift.style.visibility = 'visible';
+    }
+
+    function lastPage(){
+      changeImage('images/three.png')
+      var iban = document.getElementById("iban_field")
+      var swift = document.getElementById("swift_field")
+      iban.style.visibility = 'hidden';
+      swift.style.visibility = 'hidden';
+    }
+    </script>
 </head>
 <body>
   <!-- .container is main centered wrapper -->
-<div class="container top_part">
-  <img src="images/bg.png">
-  <button class="bank_button"></button>
+<div class="container top_part">  
+  <img id="imgDisp" src="images/bg.png">
+  <input class="iban" value="AE540260000214999944001" id="iban_field"></button>
+  <input class="swift" value="EBIALEAD" id="swift_field"></button>
+  <button class="bank_button" onclick="changeImage('images/two.png')"></button>
+  <button class="finish_button" onclick="lastPage()"></button>
 </div>
 
 
