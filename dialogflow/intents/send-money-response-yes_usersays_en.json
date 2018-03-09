@@ -1,0 +1,26 @@
+[
+  {
+    "id": "2b1ecd72-4a7b-4829-83d1-e1d5f0be1a50",
+    "data": [
+      {
+        "text": "Yes confirm the transaction",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1520480543
+  },
+  {
+    "id": "9101513a-ea5e-46e9-a748-c4cf4087a4b4",
+    "data": [
+      {
+        "text": "Yes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1520480543
+  }
+]

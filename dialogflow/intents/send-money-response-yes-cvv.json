@@ -1,0 +1,48 @@
+{
+  "id": "08d0657d-45fe-4283-9b3c-c9eb5d3ea21c",
+  "parentId": "eef9dcc7-9e00-44ef-ad6e-91f35e1ff079",
+  "rootParentId": "064984c0-f006-4a31-8dd1-dff38ab551d4",
+  "name": "send-money-response-yes-cvv",
+  "auto": true,
+  "contexts": [
+    "send-money-response-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "paysync-start.paysync-start-custom.sendmoney-custom.send-money-response-yes-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "379f0e4d-29f5-4ddd-a755-818740d230c4",
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "lang": "en",
+          "destinationName": "Payment Link Generated",
+          "url": "https://namankamra.com/pysync/"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1520480893,
+  "fallbackIntent": false,
+  "events": []
+}

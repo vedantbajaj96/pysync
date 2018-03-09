@@ -1,0 +1,50 @@
+[
+  {
+    "id": "5ae7214e-c6ce-41f8-9837-f5d8a207c2ec",
+    "data": [
+      {
+        "text": "Cancel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1520480650
+  },
+  {
+    "id": "d77c9602-2a78-4e9d-8a89-9100ea6b7104",
+    "data": [
+      {
+        "text": "No, cancel the transaction",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1520480650
+  },
+  {
+    "id": "d3312215-46cb-4a7d-875d-023eb498f58f",
+    "data": [
+      {
+        "text": "No",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1520480650
+  },
+  {
+    "id": "9af5d80d-8d0e-40bb-a0ff-fd6abf5d1898",
+    "data": [
+      {
+        "text": "Cancel the transaction",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1520480650
+  }
+]

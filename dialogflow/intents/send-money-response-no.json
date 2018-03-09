@@ -1,0 +1,34 @@
+{
+  "id": "d9e4e34e-7c6c-4890-956a-f5ce461a4cbb",
+  "parentId": "aa9eecf0-f2be-457c-b3e2-f1fd8ce45861",
+  "rootParentId": "064984c0-f006-4a31-8dd1-dff38ab551d4",
+  "name": "send-money-response-no",
+  "auto": true,
+  "contexts": [
+    "sendmoney-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "paysync-start.paysync-start-custom.sendmoney-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Okay, transaction cancelled."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1520480650,
+  "fallbackIntent": false,
+  "events": []
+}

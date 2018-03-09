@@ -1,0 +1,52 @@
+[
+  {
+    "id": "7f28826d-5bb7-42ad-aa0e-c6470d98e12d",
+    "data": [
+      {
+        "text": "945",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1520480893
+  },
+  {
+    "id": "671d7dc7-f172-4d33-922d-fe57783d71fb",
+    "data": [
+      {
+        "text": "My CVV is ",
+        "userDefined": false
+      },
+      {
+        "text": "945",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1520480893
+  },
+  {
+    "id": "e583d3ff-4497-4510-9718-50f18eb13058",
+    "data": [
+      {
+        "text": "The CVV number is ",
+        "userDefined": false
+      },
+      {
+        "text": "945",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1520480893
+  }
+]

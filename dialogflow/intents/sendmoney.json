@@ -1,0 +1,55 @@
+{
+  "id": "aa9eecf0-f2be-457c-b3e2-f1fd8ce45861",
+  "parentId": "064984c0-f006-4a31-8dd1-dff38ab551d4",
+  "rootParentId": "064984c0-f006-4a31-8dd1-dff38ab551d4",
+  "name": "sendmoney",
+  "auto": true,
+  "contexts": [
+    "paysync-start-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "paysync-start.paysync-start-custom",
+      "affectedContexts": [
+        {
+          "name": "sendmoney-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "4d534a1f-d073-4a5e-9c34-f9bdae071aa5",
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "isList": false
+        },
+        {
+          "id": "d9fdbe5e-25c4-40e3-a778-01e818d73e93",
+          "dataType": "@sys.unit-currency",
+          "name": "unit-currency",
+          "value": "$unit-currency",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Do you want to confirm the transaction?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1520480440,
+  "fallbackIntent": false,
+  "events": []
+}
